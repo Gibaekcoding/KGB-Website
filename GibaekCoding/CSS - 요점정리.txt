@@ -1,0 +1,27 @@
+★CSS - 웹페이지 기획(디자인)
+
+★CSS를 삽입하는 방법
+＊Style태그 사용 - <style></style>
+＊Style속성 사용 - style=""
+
+[스타일 태그] = <style></style>
+ㄴ태그 선택자 사용 - <style> a { 제원값; }
+ㄴex)<style> a { color:red; }
+ㄴ태그 선택자에 해당되는 태그의 모든 색깔이 빨간색으로    바뀌는 것임.
+ㄴ{제원값;} = 효과(Declaration)
+ㄴex){효과(color:red;)}
+ㄴ속성값(제원값) = Property(속성) Value(값)
+ㄴex)color:red;
+
+[스타일 속성] = <Tag style="제원값"></tag>
+ㄴ태그 선택자 사용 안해도 됨 - style=""
+ㄴex)<a style="color:red">
+ㄴ해당 태그안에 스타일 속성을 부여하여 해당 태그의 모든   색깔이 빨간색으로 바뀌는 것임.
+
+[Property - 속성(제원)]
+1.color : 색깔
+ㄴValue = red, black, yellow, etc.
+2.font-size : 글자 크기
+ㄴValue = (N)px, small~large, 10%~1000%, etc.
+3.text-align : 텍스트 정렬
+ㄴValue = center, left, right, justify, etc.
