@@ -1,0 +1,85 @@
+★HTML - 웹페이지 기획(뼈대)
+
+[TAG] - <태그> = 여는 태그 </태그> = 닫는 태그
+= 처음과 끝을 맺음하여 부가기능을 넣는 것
+[ATTRIBUTE] - <속성> = 태그 심화버전
+
+＃태그
+1.<strong></strong> = 진하게
+2.<underline></underline> = 밑줄
+ㄴ<u>로 간략화 가능[자주 안씀]
+3.<h1~h6></h1~h6> = 대제목~소제목(+줄바꿈 기능)
+4.<img> = 이미지를 삽입할 수 있게 해주는 태그 - 속성을 이용해 사용
+5.<br> - 끝맺음 태그 없음 = 줄바꿈 태그
+ㄴ<br>태그 다수 사용 시 여백 늘어남.
+6.<p></p> - 문단 구분 태그 = 줄바꿈 태그(=<br>)
+ㄴ<p>태그는 정해진 여백만 설정하게 되어 있음.
+7.<parent>
+  <child></child> = 부모태그와 자식태그 - 부모 태그안에 자식태그가 있음.
+</parent>
+ㄴ①<ul>          ②<ol>
+        <li></li>        <li></li>
+     </ul>            <ol>
+8.<li></li> = list 태그(줄바꿈 기능 및 목록으로 만듬)
+9.<ul></ul> = 순서없는 목록(unordered list) - 코드값 앞에 ● 같은 기호를 출력
+10.<ol></ol> = 순서있는 목록(ordered list) - 코드값 안에 [1.2.3.] 같은 숫자를 출력
+11.<title></title> = 제목 태그(타이틀 태그) - 웹페이지의 제목을 설정함
+   (1.본문을 설명하는 제목을 설정하는 것임.)
+   (2.웹페이지에 주기되는 이름을 설정.)
+12.<meta charset> = 웹페이지를 열 떄 출력되는 방식을 설정함
+   ('해당 웹페이지를 열 때 utf-8방식으로 열어줘)
+ㄴex)<meta charset="utf-8"> = 이 웹페이지가 'utf-8'이라는 방식으로 저장되어 있음.
+13.<body></body> = 본문을 설명하는 태그(본문이나 내용은 body태그로 묶음.)
+ㄴ이 안에 본문이 들어감.
+14.<head></head> = body 태그안에 있는 내용 및 본문 즉 body태그는 head태그로 묶음.
+15~16. = <head> <body></body> </head>
+14.<html></html> = 이 문서는 html이라는 것을 나타내주는 태그
+ㄴ응용 - 이 문서는 html이다 = <!DOCTYPE(대/소문자 상관없음) html>
+17.<!--OO--> or <!--//OO--> = 주석 태그 - 이 태그를 사용하면 실제로 출력은 되지않음.
+18.<a></a> = 링크를 설정하는 태그(anchor)
+    (이 태그로 검색엔진에 노출될 수 있게 설정함.)
+ㄴ ＊href = 링크를 걸 때 값을 참조할 때 참조를 나타냄.(a href="~~~URL~~~")
+ㄴ ＊target = 링크를 건후 눌렀을 때 새탭으로 열리게 함.(target="_blank")
+ㄴ ＊title = [툴팁 설정 태그] - 이 링크가 무엇인지를 알려줌.(title="~~~~~~~~")
+19.<iframe></iframe> = 동영상의 소스(코드값)를 이용하여 동영상을 삽입함
+ㄴ 동영상 삽입 태그(속성을 이용해 사용)
+＊자주 사용하는 태그(2021.08.07 기준)
+1.<html></html>
+2.<head></head>
+3.<body></body>
+4.<title></title>
+5.<meta></meta>
+6.<div></div>
+7.<a></a>
+8.<script></script>
+9.<link></link>
+10.<img>
+11.<span></span>
+12.<p></p>
+13.<li></li>
+14.<ul></ul>
+15.<style></style>
+16.<br>
+17.<h1></h1>
+18.<input></input>
+19.<form></form>
+20.<h3></h3>
+21.<nav></nav>
+22.<footer></footer>
+23.<header></header>
+24.<iframe></iframe>
+25.<button></button>
+26.<i></i>
+
+#속성
+[img] = 이미지를 삽입할 수 있게 해주는 속성
+①<img src="" alt="">
+ㄴ alt, src의 서식 순서 상관없음.
+②<img src="" width=";" height="">
+ㄴwidth, height, src의 서식 순서 상관없음.
+ㄴwidth와 height같이 크기를 줄이는 속성을 연속으로 사용할 시 세미콜론(;)을 사용해 속성을 이어줌.
+
+[iframe] = 동영상을 삽입할 수 있게 해주는 속성
+<iframe src="" width=";" height=""></iframe>
+ㄴwidth, height, src의 서식 순서 상관없음.
+ㄴwidth와 height같이 크기를 줄이는 속성을 연속으로 사용할 시 세미콜론(;)을 사용해 속성을 이어줌.
